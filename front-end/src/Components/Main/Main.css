@@ -1,0 +1,19 @@
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 62px 0
+    }
+    
+    ._background {
+       
+        background-image: url('../../assets/img/forrester.png');
+        background-size: content;
+        background-position: center center;
+        background-repeat: no-repeat;
+        left: -12px;
+        right: -14px !important;
+        position: relative;
+        width: calc(100% + 24px);
+        height: 60vh;
+    }
